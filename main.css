@@ -90,7 +90,7 @@
     #page_content .how-to {
         overflow: auto;
         position: relative;
-        left: 5%;
+        text-align: center;
     }
 
     h2 {
@@ -108,4 +108,42 @@
     a {
         color: rgb(224, 4, 4);
         text-decoration: none;
+    }
+    @media only screen 
+    and (max-width : 380px) {
+    button#button {
+        width: 49%;
+        height: 40px;
+        padding: 5px;
+        color: #fff;
+        border-style: none;
+        background: #03A9F4;
+        cursor: pointer;
+    }
+    button#resetbtn {
+        width: 39%;
+        height: 40px;
+        padding: 5px;
+        color: #fff;
+        border-style: dashed;
+        background: #607D8B;
+        cursor: pointer;
+    }
+    #page_content .how-to {
+        overflow: auto;
+        left: 5%;
+        width: 100%;
+    }
+    #page_content img {
+        width: 100%;
+        height: 100%;
+    }
+   
+    }
+    @media only screen 
+    and (max-width : 690px) {
+        #page_content img {
+            width: 100%;
+            height: 100%;
+        }
     }
