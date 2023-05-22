@@ -7,12 +7,19 @@
 <meta name="language" content="en-us">
 <link href="./img/favicon.png" rel="icon" type="image/x-icon" />
 <title>Google Drive Download Link Generator</title>
-<meta name="description" content="New Google Drive link to direct Download Link Convertor">
-<meta name="keywords" content="Keywords: drive link to direct, direct download link to drive,">
+<meta name="description" content="New Google Drive link to direct Download Link Convertor.Generate direct download links for any file stored in your Google Drive account. Save time and enjoy seamless file downloads with our efficient tool.">
+<meta name="keywords" content="drive link to direct, direct download link to drive, drive link generator">
 <meta name="author" content="HelaLK Media Unit by DILU">
-<meta property="og:title" content="HelaLK | get direct link">
-<meta property="og:description" content="Hela Drive Link to direct link convertor">
-
+<meta property="og:description" content="New Google Drive link to direct Download Link Convertor.Generate direct download links for any file stored in your Google Drive account."/>
+<meta property="og:title" content="Google Drive Download Link Generator" />
+<meta property="og:image" content="./img/gdrive.png"/>
+<meta property="og:url" content="https://link2direct.helalk.com/" />
+<meta name="twitter:card" content="Google Drive Download Link Generator">
+<meta name="twitter:creator" content="@helalk">
+<meta name="twitter:title" content="Google Drive Download Link Generator">
+<meta name="twitter:image" content="./img/gdrive.png">
+<meta name="twitter:site" content="@helalk">
+<meta name="twitter:description" content="New Google Drive link to direct Download Link Convertor.Generate direct download links for any file stored in your Google Drive account.">
 
 
 <link rel="stylesheet" type="text/css" href="main.css"/>
@@ -35,9 +42,9 @@
             </button>
             <div id="navbar-menu" aria-labelledby="navbar-toggle">
               <ul class="navbar-links">
-                <li class="navbar-item"><a class="navbar-link" href="#" ><i class="fa fa-home"></i>Home</a></li>
-                <li class="navbar-item"><a class="navbar-link" href="#"><i class="fa fa-folder"></i>Tools</a></li>
-                <li class="navbar-item"><a class="navbar-link" href="#"><i class="fa fa-envelope-open-o"></i>Contact</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="/" ><i class="fa fa-home"></i>Home</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="https://www.helalk.com/"><i class="fa fa-folder"></i>Tools</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="https://www.helalk.com/contact-us/"><i class="fa fa-envelope-open-o"></i>Contact</a></li>
                
               </ul>
             </div>
@@ -45,20 +52,13 @@
 </header>
 <script src="./assets/js/nav.js"></script>
 <!--End Header Nav Bar-->
-<br>
-<br>
-<br>
-<br>
-<br>
-
+<br><h1>Google Drive link to Direct Download Generator</h1><br><br><br><br>
 <script language="javascript">
     window.onload = setup;
-    
     function setup(){
      document.getElementById('button').addEventListener('click', go, false);
     }
-      
-    function go(){
+      function go(){
         var DocIDfull = document.getElementById('DocID').value;
         var DocIDstart = DocIDfull.indexOf('/d/');
         var DocIDend = DocIDfull.indexOf('/', DocIDstart+3);
@@ -74,8 +74,7 @@
         }
         var ID = 'https://drive.google.com/uc?export=download&id=' + DocID;
         document.getElementById('Input_span').innerHTML = '<input type="text" onclick="this.select();" id="output"  value="' + ID + '" readonly>' +
-                                      '<hr style="visibility:hidden;height:0">' +
-                                                          '<font style="font-size: 12px;font-weight: bold;color: #086900;">Tip: Press button below to copy generated URL.</font>';
+      '<hr style="visibility:hidden;height:0">' +'<font style="font-size: 12px;font-weight: bold;color: #086900;">Tip: Press button below to copy generated URL.</font>';
         document.getElementByID('output').select();
     }
 </script>
@@ -101,30 +100,25 @@
     var copyText = document.getElementById("output");
     copyText.select();
     document.execCommand("copy");
-    
     var tooltip = document.getElementById("myTooltip");
     tooltip.innerHTML = "Copied: " + copyText.value;
   }
-  
   function outFunc() {
     var tooltip = document.getElementById("myTooltip");
     tooltip.innerHTML = "Copy to clipboard";
   }
   </script>
-
 <br>
 <br>
 <br/>
 <br/>
 <div id="page_content">
-  
-        <div class="how-to">
-          <b><h2>How to get Google drive share link:</h2></b>
-          
+  <div class="how-to">
+    <b><h2>How to get Google drive share link:</h2></b>
           <h3>Step 1:</h3> <p>Go to <a href="https://drive.google.com/" target="_blank">Google Drive</a> and right click the file that you want to share. Then click on "Share...".</p>
-          <div >
-            <img alt="google drive convertor" src="img/Screenshot_1.jpg" width="600" height="575" />
-          </div>
+        <div>
+          <img alt="google drive convertor" src="img/Screenshot_1.jpg" width="600" height="575" />
+        </div>
           <br/>
           <br/>
           <h3>Step 2:</h3><p> On the window that comes up, click "Get shareable link".</p>
@@ -139,21 +133,12 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
-
-
-
-
+ </div>
 </div>
-
-
 <!--Cookies-->
 <link rel="stylesheet" href="./assets/css/bootstrap/cookies.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
-
-
-
 <div class="container">
     <div class="card" style="margin-top: 70px">
      <div class="card-body">
@@ -161,17 +146,12 @@
      </div>
     </div>
 </div>
-
 <div class="alert text-center cookiealert" role="alert">
- <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://www.helalk.com/tac/" target="_blank">Learn more</a>
-
- <button type="button" class="btn btn-primary btn-sm acceptcookies">
-     I agree
- </button>
+<b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://www.helalk.com/tac/" target="_blank">Learn more</a>
+<button type="button" class="btn btn-primary btn-sm acceptcookies">I agree</button>
 </div>
 <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 <!--end of the Cookies-->
-
 <!--Footer-->
           <div class="footer-helalk">
             <footer>
@@ -191,8 +171,5 @@
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-
-
-
 </body>
 </html>
